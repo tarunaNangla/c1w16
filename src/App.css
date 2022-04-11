@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.leftside{
+  text-align: left;
+}
+
+.productsdata{
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+  /* grid-template-rows: repeat(2,1fr); */
+  border: 1px solid black;
+  
+}
+
+.productsdata>div{
+  /* display: grid; */
+  /* grid-template-columns:repeat(5,1fr); */
+  border: 1px solid black;
+  
+}
+.flexdata{
+  display: flex;
+  justify-content: space-evenly;
+}
+.flexdata1{
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid black;
+  background-color: blue;
+  color: aliceblue;
+
+}
+button{
+  width: 2px;
+  height:20px;
+  margin-top: 20px;
+  text-align: center;
+  
+  
+}
